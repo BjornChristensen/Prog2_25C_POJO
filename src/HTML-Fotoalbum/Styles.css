@@ -1,0 +1,25 @@
+
+#top{
+text-align: center;
+background-color: grey;
+color: white;
+font-weight: bold;
+}
+
+.box a{
+background-color: yellow;
+}
+
+.grid {
+display: flex;
+flex-wrap: wrap;
+}
+
+.box{
+display: flex;
+flex-direction: column;
+width: 400px;
+margin: 20px;
+border: solid black;
+text-align: center;
+}
