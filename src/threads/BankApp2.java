@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class BankApp2 {
   public static void main(String[] args) throws InterruptedException {
-    System.out.println("Velkommen til BankApp2");
+    System.out.println("Velkommen til BankApp2 ");
     Account a1=new Account("Joe Pass", 1.5);
     Customer Tom=new Customer(a1);
     Customer Jerry=new Customer(a1);

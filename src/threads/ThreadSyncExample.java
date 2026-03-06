@@ -18,7 +18,7 @@ public class ThreadSyncExample {
 class Tabel {
   static synchronized void print(int n){
     for (int i=1; i<=10; i++){
-      System.out.println(n+"*"+i+"="+n*i);
+      System.out.println(n+"*"+i+"= "+n*i);
     }
   }
 }
